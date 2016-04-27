@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+    head   
+        title Auto-suggest Dropdown
+        link(href='css/app.css' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet')
+    body
+        .container
+            .input
+                input.auto-input(type='text' placeholder="select a brand")
+                i.material-icons.carat arrow_drop_down
+            ul#list.hidden
+                li
+                    input#option1(type="checkbox")
+                    label(for="option1") Huggies
+                li
+                    input#option2(type="checkbox")
+                    label(for="option2") Yuengling
+                li
+                    input#option3(type="checkbox")
+                    label(for="option3") Glad
+                li
+                    input#option4(type="checkbox")
+                    label(for="option4") Colgate
+        script(src='js/app.js') 

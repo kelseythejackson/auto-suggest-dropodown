@@ -1,0 +1,27 @@
+@import 'partials/reset';
+@import 'bourbon/bourbon';
+
+body {
+    @include display(flex);
+    @include justify-content(center);
+}
+
+.hidden {
+    display: none;
+}
+
+//.input {
+//    background-color: blue;
+//    border-radius: 2px;
+//    color: white;
+//    height: 44px;
+//    input {
+//        background-color: transparent;
+//        border: 0;
+//        color: white;
+//    }
+//    
+//    .material-icons {
+//        color: white;
+//    }
+//}
